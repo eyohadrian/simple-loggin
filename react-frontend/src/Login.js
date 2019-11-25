@@ -57,7 +57,6 @@ const Login = withStyles(style)(({children, classes}) => {
         })
   }, []);
 
-  console.log(state);
   const onChangeField = useCallback((obj, param) => e => {
     obj[param] = e.target.value;
   }, []);
