@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>URL</h1>
+        <h1>ULA ULA</h1>
         <TextField defaultValue={url} onChange={e => urlValue.current = e.target.value}/>
         <Button onClick={saveUrl}>Send</Button>
       </div>
